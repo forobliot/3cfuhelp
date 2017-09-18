@@ -1,0 +1,121 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>help3cfu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+
+  </head>
+  <body data-selected="medicina">
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <h3 class="text-muted">help3cfu</h3>
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-12">
+          <h1>Titolo</h1>
+          <p>Benvenuti nella piattaforma "3CFU Informatica", ambiente per il conseguimento delle competenze informatiche<p>
+          <p>Il corso si compone di una parte di attività online (materiale didattico e test di autovalutazione),
+            da lezioni di laboratorio in aula informatica (<span class="var" data-select="lab"></span>) e da un esame finale</p>
+
+          <h2>Modalità di frequenza</h2>
+          <div class="select" data-if="labspo,agraria,scienzeerboristiche,ctf,managmentpubblico,scienzebiologiche,sie,scienzegeologiche,farmacia,">
+            <p>Corsi a tempo indeterminato (es sc.erboristiche)</p>
+            <p>Ogni anno è prevista una edizione del corso che decorre da una determinata data (1° o 2° semestre)</p>
+            <p>L'iscrizione al corso avviene all'interno di una edizione</p>
+            <p>L'attività online può essere svolta e completata in un periodo a discrezione dell'utente</p>
+            <p>L'attività online completata non prevede una scadenza temporale e l'esame può essere sostenuto
+              in qualunque appello previsto per l'edizione del corso a cui ci si è iscritti o in un appello delle edizioni sucessive</p>
+          </div>
+          <div class="select" data-if="studiumanistici,medicina">
+            <p>Corsi a termine senza esame finale (studi umanistici e medicina altri)</p>
+            <p>Ogni anno sono previste due edizioni del corso  (1° e 2° semestre)</p>
+            <p>L'iscrizione al corso avviene all'interno di una edizione in una fascia temporale precisa (comunicata dalla segreteria didattica?)</p>
+            <p>per consentire il conseguimento dei crediti formativi è neccessario partecipare obbligatoriamente
+              alle lezioni di laboratorio previste e completare l'attività online prima del termine indicato di conclusione del corso.</p>
+            <p>Se non partecipi a tutte le lezioni di laboratori o non avrà completato l'attività online non potrà verbalizzare i crediti
+              formativi e dovrà iscriversi a una sucessiva edizione del corso perdendo completamente il lavoro svolto nell'edizione precedente.</p>
+          <div>
+          <div class="select" data-if="odontoiatria">
+            <p>Corsi a termine con esame finale (odontoiatria + ritardatari medicina)</p>
+            <p>Ogni anno sono previste una edizione del corso  (1° semestre)</p>
+            <p>L'iscrizione al corso avviene all'interno di una edizione in una fascia temporale precisa
+              per consentire il conseguimento dei crediti formativi non è neccessario partecipare obbligatoriamente
+              alle lezioni di laboratorio previste anche se è fortemente consigliato.
+              È invece obbligatorio completare l'attività online prima del termine indicato di conclusione
+              del corso per sostenere l'esame nella data associata a quella edizione.</p>
+            <p>Se lo studente non avrà completato l'attività online  e sostenuto l'esame non potrà verbalizzare
+              i crediti formativi e dovrà iscriversi a una sucessiva edizione del corso perdendo
+              completamente il lavoro svolto nell'edizione precedente.</p>
+          </div>
+
+
+
+          <p>Testo da riempiro con <span class="var" data-select="address"></span></p>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+      </div>
+
+    </div>
+
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
